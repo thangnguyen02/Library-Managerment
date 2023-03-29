@@ -1,0 +1,157 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cta-btn, .page-banner, a.cta-btn, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+}
+body {
+    font-size: 100%;
+    line-height: normal;
+    background-color: #e1dcc5;
+}
+body, li, p {
+    color: #333;
+}
+.header {
+    margin: 0px 150px;
+    max-width: 1060px;
+    min-width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+}
+.header ul {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1 em;
+    margin-block-end: 1 em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    z-index: 1;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 300px;
+}
+#logo {
+    width: 200px;
+    height: 150px;
+}
+#logo img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+.login_logout li {
+    width: 150px;
+    height: 50px;
+    margin: 0 10px;
+}
+.login_logout a {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.login_logout a:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+.main_content {
+    margin: 0 150px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black ;
+}
+.main_content .first {
+    position: relative;
+}
+.main_content .first h3 {
+    margin-top: 40px;
+    padding-left: 60px;
+    position: absolute;
+    color: red;
+    display: block;
+    font-size: 24px;
+}
+.main_content .first .img_2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.main_content .seccond .title {
+    color: red;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.seccond .books {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.books .book .img_b {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px gray;
+    width: 150px;
+    height: 200px;
+}
+.books .book .img_b img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.last {
+    padding-bottom: 60px !important; 
+}
+.footer {
+    height: 120px;
+    text-align: center;
+    padding-top: 46px;
+}
+
+#slideshow {
+    padding-top: 10px;
+    overflow: hidden;
+    height: 510px;
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 3072px;
+    -webkit-animation: slide 14s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 1024px;
+  }
+  .slide img{
+    height: 510px;
+    width: 1024px;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1024px;}
+    50% {margin-left: -1024px;}
+    60% {margin-left: -2048px;}
+    80% {margin-left: -2048px;}
+  }

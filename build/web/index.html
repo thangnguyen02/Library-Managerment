@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style_home.css"/>
+    </head>
+    <body>
+       <div class="header">
+        <div id="logo">
+            <img src="img/logo1.png" alt="LOGO">
+        </div>
+        <div style="width: 500px;"></div>
+        <ul class="login_logout">
+            <li><a href="SignIn.jsp">Log In</a></li>
+            <li><a href="SignUp.jsp">Sign Up</a></li>
+        </ul>
+    </div>
+    <div class="main_content">
+        <div class="first">
+                <h3>Welcome to Library Online</h3>
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                <div class="slide"><img src="img/img3.png"></div>
+                <div class="slide"><img src="img/img2.png"></div>
+                <div class="slide"><img src="img/mainimg.jpg"></div>
+                </div>
+              </div>
+        </div>
+        <div class="seccond">
+            <div class="title">
+                <h3>List of favorite books</h3>
+            </div>
+            <div class="books">
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="title">
+                <h3>Books We Love</h3>
+            </div>
+            <div class="books">
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book11.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book12.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book13.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book14.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book15.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <h3>Recently Returned</h3>
+            </div>
+            <div class="books">
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book16.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book17.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book18.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book19.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book20.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <h3>Other</h3>
+            </div>
+
+            <div class="books last">
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book9.jpg" alt="">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="img_b">
+                        <img onclick="show()" src="img/book10.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thu3 last">
+            <div class="title">
+                <h3 style="padding-left: 20px;">About us</h3>
+                <p style="padding: 10px;">We are a group of students of FPT University, developing a project to deploy a Web site to help students easily search and interact well with the school library. This is a project that is in the process of being edited and completed. <br><br>We look forward to your help.!!!</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3 style="margin-bottom: 10px;">Copyright @ 2022 <span style="color: red;">Nguyễn Hữu Thắng, Phan Viết Tú</span>. All Rights Reserved</h3>
+        Office tel: (+84)8.5489.8556  / Email :  thangnhhe161517@fpt.edu.vn
+    
+    </div>
+    <script>
+        function show(){
+            alert("You're not logged in now. Log in now!!");
+        }
+    </script>
+</body>
+</html>

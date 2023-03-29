@@ -1,0 +1,198 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cta-btn, .page-banner, a.cta-btn, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+}
+body {
+    font-size: 100%;
+    line-height: normal;
+    background-color: #e1dcc5;
+}
+body, li, p {
+    color: #333;
+}
+.header {
+    margin: 0px 150px;
+    max-width: 1060px;
+    min-width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+}
+.header ul {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    z-index: 1;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 300px;
+}
+#logo {
+    width: 200px;
+    height: 150px;
+}
+#logo img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+.main_content {
+    margin: 0 150px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black ;
+    padding-bottom: 50px; 
+    min-height: 500px;
+}
+.menu {
+    width: 100%;
+    
+}
+.menu ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px 5rem;
+    height: 4 rem;
+    border-bottom: 2px solid black;
+}
+.menu ul li {
+    width: 15rem;
+    height: 100%;
+    text-align: center;
+}
+.menu ul a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 4rem;
+    transition: 0.4s;
+    font-size: 14px;
+}
+.menu ul a:hover {
+    color: red;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+.right #img {
+    width: 20vw;
+    height: 20vw;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transform: translateX(-50%);
+    
+}
+#img img 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid red;
+}
+#infor 
+{
+    margin-top: 60px;
+    margin-left:10% ;
+    color: red;
+    margin-bottom:30px ;
+    transform: translateX(-50%);
+}
+#logout
+{
+    margin: 10px 0;
+    width: 8vw;
+    height: 4vw;
+    border-radius: 15px;
+    margin-left:50% ;
+    transform: translateX(-50%);
+    background-color: aqua;
+}
+
+.rightB {
+    margin-top: 55px !important;
+}
+  .footer {
+    height: 120px;
+    text-align: center;
+    padding-top: 46px;
+}
+.table_css {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table_css .fir td{
+    color: red;
+    height: 40px;
+    background-color: rgb(223, 217, 217);
+    
+}
+.table_css td{
+    padding: 0px 20px;
+    font-size: 13px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.form_search input{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    padding-left: 10px; 
+}
+.form_search input:last-child{
+    padding-left: 0px; 
+    transition: 0.5s;
+}
+.form_search input:last-child:hover{
+    background-color: red;
+    color: white;
+}
+.form_insert,
+.form_insert1 {
+    padding: 30px 30px;
+}
+.form_insert p,
+.form_insert1 p{
+    margin-bottom: 20px;
+}
+.form_insert span,
+.form_insert1 span{
+    color: red;
+}
+.form_insert input,
+.form_insert1 input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.form_insert input:last-child:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: red;
+}
+.form_insert1 .last:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: red;
+}
